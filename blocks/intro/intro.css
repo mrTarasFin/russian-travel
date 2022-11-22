@@ -1,0 +1,10 @@
+.intro{
+    margin: 114px 0 0 0;
+    padding: 0;
+    width: 690px;
+    height: 429px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+}

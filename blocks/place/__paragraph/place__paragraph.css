@@ -1,0 +1,13 @@
+.place__paragraph{
+    margin: 0;
+    padding: 0;
+    max-width: 484px;
+    color: #ffffff;
+    grid-row: 4/5;
+    grid-column: 2;
+    /*настройка шрифта*/
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+}
