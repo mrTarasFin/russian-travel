@@ -1,8 +1,10 @@
-.place__title{
+.cover__title{
     margin: 0;
     padding: 0;
-    max-width: 460px;
-    color: #ffffff;
+    max-width: 560px;
+    max-height: 152px;
+    text-align: center;
+    z-index: 1;
     /*настройка шрифта*/
     font-style: normal;
     font-weight: 900;
