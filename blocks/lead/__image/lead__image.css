@@ -1,0 +1,8 @@
+.lead__image{
+    margin: 0;
+    padding: 0;
+    background-image: url(../../../images/train.png);
+    background-repeat: no-repeat;
+    width: 984px;
+    height: 615px;
+}

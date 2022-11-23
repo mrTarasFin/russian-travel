@@ -1,0 +1,13 @@
+.cover__title{
+    margin: 32px 0 0 0;
+    padding: 0;
+    max-width: 360px;
+    max-height: 66px;
+    text-align: center;
+    z-index: 1;
+    /*настройка шрифта*/
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}

@@ -1,0 +1,13 @@
+.lead__subtitle{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 640px;
+    height: 72px;
+    /*настройки шрифта*/
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #ffffff;
+}
