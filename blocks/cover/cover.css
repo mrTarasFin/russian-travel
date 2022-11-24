@@ -1,10 +1,6 @@
 .cover{
-    margin: 92px 0 92px 0;
+    margin: 92px auto 0;
     padding: 0;
-    height: 740px;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
+    max-width: 1184px;
+    max-height: 740px;
 }

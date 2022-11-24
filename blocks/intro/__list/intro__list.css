@@ -11,3 +11,17 @@
     font-size: 12px;
     line-height: 18px;
 }
+
+@media screen and (max-widht: 320px) {
+    .intro__list{
+    max-width: 288px;
+    max-height: 90px;
+    }
+}
+
+@media screen and (max-widht: 768px) {
+    .intro__list{
+    max-width: 720px;
+    max-height: 90px;
+    }
+}

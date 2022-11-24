@@ -5,3 +5,26 @@
     height: 100%;
     object-fit: cover;
 }
+
+@media screen and (max-widht: 320px) {
+    .photo-grid__item{
+    max-width: 288px;
+    max-height: 216px;
+    gap: 12px;
+    }
+}
+
+@media screen and (max-widht: 768px) {
+    .photo-grid__item{
+    max-width: 352px;
+    max-height: 264px;
+    gap: 16px;
+    }
+}
+
+@media screen and (max-widht: 1024px) {
+    .photo-grid__item{
+    max-width: 690px;
+    max-height: 208px;
+    }
+}

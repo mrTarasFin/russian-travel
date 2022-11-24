@@ -1,12 +1,33 @@
 .intro__text{
     margin: 40px 0 0 0;
     padding: 0;
-    width: 690px;
-    height: 208px;
+    max-width: 690px;
+    max-height: 208px;
     color: #ffffff;
     /*натсройка шрифта*/
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 163%;
+}
+
+@media screen and (max-widht: 320px) {
+    .intro__text{
+    max-width: 288px;
+    max-height: 520px;
+    }
+}
+
+@media screen and (max-widht: 768px) {
+    .intro__text{
+    max-width: 720px;
+    max-height: 288px;
+    }
+}
+
+@media screen and (max-widht: 1024px) {
+    .intro__text{
+    max-width: 690px;
+    max-height: 208px;
+    }
 }
