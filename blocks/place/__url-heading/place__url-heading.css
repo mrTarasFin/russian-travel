@@ -1,4 +1,4 @@
-.place_url-heading{
+.place__url-heading{
     margin: 0;
     padding: 0;
     width: 456px;
@@ -13,7 +13,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .place_url-heading{
+    .place__url-heading{
         margin: 0 16px 0 16px;
         width: 352px;
     }
@@ -21,7 +21,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    .place_url-heading{
+    .place__url-heading{
         margin: 0 16px 0 16px;
         width: 320px;
     }
