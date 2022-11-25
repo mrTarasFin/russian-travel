@@ -3,6 +3,8 @@
 ## Описание проекта
 Проект создан в рамках обучения [Yandex Практикум](https://practicum.yandex.ru/) в 2022 году.
 
+[Ссылка на проект](https://mrtarasfin.github.io/russian-travel/index.html)
+
 ### Инструменты верстки
 1. HTML
 2. CSS
