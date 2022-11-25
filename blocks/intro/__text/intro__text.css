@@ -1,8 +1,8 @@
 .intro__text{
+    font-family:'inter' , Arial, sans-serif;
     margin: 40px 0 0 0;
     padding: 0;
     max-width: 690px;
-    max-height: 208px;
     color: #ffffff;
     /*натсройка шрифта*/
     font-style: normal;
@@ -11,23 +11,9 @@
     line-height: 163%;
 }
 
-@media screen and (max-widht: 320px) {
+@media screen and (max-width: 320px){
     .intro__text{
-    max-width: 288px;
-    max-height: 520px;
+        max-width: 288px;
     }
-}
-
-@media screen and (max-widht: 768px) {
-    .intro__text{
-    max-width: 720px;
-    max-height: 288px;
-    }
-}
-
-@media screen and (max-widht: 1024px) {
-    .intro__text{
-    max-width: 690px;
-    max-height: 208px;
-    }
+    
 }

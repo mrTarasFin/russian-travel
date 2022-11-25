@@ -10,5 +10,20 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 12px;
+}
 
+@media screen and (max-width: 768px) {
+    .place_url-heading{
+        margin: 0 16px 0 16px;
+        width: 352px;
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+    .place_url-heading{
+        margin: 0 16px 0 16px;
+        width: 320px;
+    }
+    
 }

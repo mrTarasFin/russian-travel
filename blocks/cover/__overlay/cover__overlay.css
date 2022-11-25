@@ -1,20 +1,38 @@
-.cover{
-    margin: 92px auto 0;
+.cover__overlay{
+    margin: 0;
     padding: 0;
     width: 1184px;
     height: 740px;
+    color: #ffffff;
+    text-decoration: none;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(../../images/baikal.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
 }
+
+.cover__overlay::before {
+    content: '';
+    background: #2A2C2F;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .5;
+    z-index: -1;
+    transition: opacity 0.3s ease-in-out;
+}
+  
+.cover__overlay:hover::before {
+    opacity: .9;
+} 
 
 
 @media screen and (max-width: 1024px) {
-    .cover{
+    .cover__overlay{
         margin: 0;
         width: 1024px;
         height: 640px;
@@ -22,7 +40,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .cover{
+    .cover__overlay{
         margin: 0;
         width: 768px;
         height: 400px;
@@ -30,7 +48,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    .cover{
+    .cover__overlay{
         margin: 0;
         width: 320px;
         height: 200px;

@@ -11,3 +11,23 @@
     font-size: 18px;
     line-height: 163%;
 }
+
+@media screen and (max-width: 768px) {
+    .place__paragraph{
+        margin: 0;
+        max-width: 352px;
+        font-size: 16px;
+        line-height: 163%;
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+    .place__paragraph{
+        margin: auto;
+        max-width: 288px;
+        grid-row: 4;
+        grid-column: 1;
+    }
+    
+}
