@@ -1,6 +1,6 @@
 @font-face{
     font-family: 'Inter';
-    src: local('Inter'), url(../../fonts/Inter_Desktop/Inter-V.ttf)
+    src: local('Inter'), url(../../fonts/Inter_Desktop/Inter-V.ttf);
 }
 .page{
     font-family:'inter' , Arial, sans-serif;
