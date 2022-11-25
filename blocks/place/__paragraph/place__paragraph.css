@@ -12,6 +12,16 @@
     line-height: 163%;
 }
 
+@media screen and (max-width: 1184px) {
+    .place__paragraph{
+        margin: 0;
+        max-width: 400px;
+        font-size: 16px;
+        line-height: 163%;
+    }
+    
+}
+
 @media screen and (max-width: 768px) {
     .place__paragraph{
         margin: 0;

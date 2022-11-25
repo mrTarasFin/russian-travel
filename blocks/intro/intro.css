@@ -9,16 +9,10 @@
     align-items: flex-start;
 }
 
-@media screen and (max-width: 1224px){
-    .intro{
-        margin: 114px 0 0 148px;
-    }
-    
-}
 
 @media screen and (max-width: 1024px){
     .intro{
-        max-width: 690px;
+        width: 100%;
         margin: 114px 0 0 48px;
     }
     
@@ -33,7 +27,7 @@
 
 @media screen and (max-width: 768px){
     .intro{
-        width: 720px;
+        width: 100%;
         margin: 114px 0 0 24px;
     }
     
