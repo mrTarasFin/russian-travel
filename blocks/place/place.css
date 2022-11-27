@@ -16,8 +16,19 @@
 
 @media screen and (max-width: 1024px) {
     .place{
+        width: 100%;
         margin: 92px 48px 0 48px;
         grid-template-columns: 440px min-content;
+    }
+    
+}
+
+@media screen and (max-width: 978px) {
+    .place{
+        width: 100%;
+        margin: 92px 48px 0 48px;
+        grid-template-columns: 340px min-content;
+        gap: 48px 28px;
     }
     
 }
