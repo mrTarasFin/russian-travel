@@ -5,9 +5,16 @@
     align-self: flex-end;
 }
 
+@media screen and (max-width: 1024px) {
+    .place__website{
+        width: 100wh;
+    }
+    
+}
+
 @media screen and (max-width: 768px) {
     .place__website{
-        width: 352px;
+        width: 100%;
     }
     
 }
