@@ -10,16 +10,15 @@
 
 @media screen and (max-width: 1024px) {
     .place__image{
-        width: 100%;
-        height: 440px;
+        width: 440px;
     }
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 984px) {
     .place__image{
-        width: 400px;
-        height: 400px;
+        width: 340px;
     }
+    
 }
 
 @media screen and (max-width: 768px) {

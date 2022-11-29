@@ -1,27 +1,12 @@
 .place__website{
     margin: 0;
     padding: 0;
-    width: 456px;
+    min-width: 320px;
     align-self: flex-end;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 715px) {
     .place__website{
-        width: 100wh;
-    }
-    
-}
-
-@media screen and (max-width: 768px) {
-    .place__website{
-        width: 100%;
-    }
-    
-}
-
-@media screen and (max-width: 320px) {
-    .place__website{
-        width: 320px;
-    }
-    
+        width: 288px;
+    }    
 }

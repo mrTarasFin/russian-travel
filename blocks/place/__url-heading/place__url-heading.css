@@ -1,9 +1,9 @@
 .place__url-heading{
     margin: 0;
     padding: 0;
-    width: 456px;
+    font-family:'Inter', Arial, sans-serif;
+    max-width: 320px;
     height: 12px;
-    align-self: flex-end;
     color: #aaaaaa;
     /*настройка шрифтов*/
     font-style: normal;
@@ -12,18 +12,9 @@
     line-height: 12px;
 }
 
-@media screen and (max-width: 768px) {
-    .place__url-heading{
-        margin: 0 16px 0 16px;
-        width: 352px;
-    }
-    
-}
-
 @media screen and (max-width: 320px) {
     .place__url-heading{
         margin: 0 16px 0 16px;
-        width: 320px;
     }
     
 }
