@@ -16,13 +16,6 @@
     opacity: .5;
 }
 
-@media screen and (max-width: 768px) {
-    .place__link{
-        width: 352px;
-    }
-    
-}
-
 @media screen and (max-width: 320px) {
     .place__link{
         margin: 0 16px 0 16px;

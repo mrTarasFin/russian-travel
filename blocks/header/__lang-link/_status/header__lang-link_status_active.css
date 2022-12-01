@@ -1,20 +1,4 @@
 .header__lang-link_status_active{
     margin-right: 18px;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-    color: #ffffff;
-    opacity: 1;
-}
-
-.header__lang-link_status_active:hover {
-    opacity: 0.6;
-  }
-
-@media screen and (max-width: 320px) {
-    .header__lang-link_status_active{
-        font-size: 18px;
-        line-height: 20px;
-    }
-    
+    text-decoration-line: underline;
 }

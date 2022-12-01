@@ -3,7 +3,6 @@
     padding: 0;
     font-family:'Inter', Arial, sans-serif;
     width: 690px;
-    height: 58px;
     color: #ffffff;
     /*настройка шрифта*/
     font-style: normal;
@@ -22,7 +21,6 @@
 @media screen and (max-width: 320px) {
     .intro__title {
       width: 280px;
-      height: 70px;
       font-size: 32px;
       line-height: 35px;
     }

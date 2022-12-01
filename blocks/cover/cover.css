@@ -2,7 +2,7 @@
     margin: 92px auto 0;
     padding: 0;
     width: 1184px;
-    height: 740px;
+    min-height: 740px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,14 +15,14 @@
 @media screen and (max-width: 1210px) {
     .cover{
         width: 100%;
-        height: 640px;
+        min-height: 640px;
     }
 }
 
 @media screen and (max-width: 1024px) {
     .cover{
         width: 100%;
-        height: 640px;
+        min-height: 640px;
     }
 }
 
@@ -30,14 +30,14 @@
     .cover{
         margin: 90px auto 0;
         width: auto;
-        height: 400px;
+        min-height: 400px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .cover{
         margin: 66px auto 0;
-        height: 200px;
+        min-height: 200px;
         min-width: 300px;
     }
 }
