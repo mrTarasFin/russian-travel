@@ -15,28 +15,27 @@
         width: 100%;
         margin: 114px 0 0 48px;
     }
-    
 }
+
 
 @media screen and (max-width: 856px){
     .intro{
         margin: 114px 0 0 36px;
     }
-    
 }
+
 
 @media screen and (max-width: 768px){
     .intro{
         width: 100%;
         margin: 114px auto 0 auto;
     }
-    
 }
+
 
 @media screen and (max-width: 320px){
     .intro{
         max-width: 288px;
         margin: 114px auto 0 auto;
     }
-    
 }
