@@ -4,7 +4,7 @@
     padding: 0;
     font-family:'Inter', Arial, sans-serif;
     max-width: 1184px;
-    width: calc(100%-96px);
+    width: calc(100% - 96px);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -15,7 +15,7 @@
 @media screen and (max-width: 1024px) {
     .footer{
         margin: 92px 48px 24px 48px;
-        width: calc(100%-96px);
+        width: calc(100% - 96px);
     }
         
 }
@@ -23,7 +23,7 @@
 @media screen and (max-width: 768px) {
     .footer{
         margin: 88px 24px 24px 24px;
-        width: calc(100%-48px);
+        width: calc(100% - 48px);
     }
         
 }
