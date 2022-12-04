@@ -3,7 +3,7 @@
     margin: 92px 0 0 148px;
     padding: 0;
     max-width: 690px;
-    width: calc(100%-2*148px);
+    width: calc(100% - 2*148px);
     display: flex;
     position: relative;
     flex-direction: column;
@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 1024px){
     .intro{
-        width: calc(100%-96px);
+        width: calc(100% - 96px);
         margin: 92px 0 0 48px;
     }
 }
@@ -21,7 +21,7 @@
 
 @media screen and (max-width: 768px){
     .intro{
-        width: calc(100%-48px);
+        width: calc(100% - 48px);
         margin: 88px 0 0 24px;
     }
 }
@@ -29,7 +29,7 @@
 
 @media screen and (max-width: 320px){
     .intro{
-        width: calc(100%-32px);
+        width: calc(100% - 32px);
         margin: 64px 16px 0 16px;
     }
 }
