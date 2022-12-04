@@ -10,3 +10,9 @@
       margin: 0 auto 32px;
     }
   }
+
+  @media screen and (max-width: 480px) {
+    .place__website {
+      grid-row: 2;
+    }
+  }

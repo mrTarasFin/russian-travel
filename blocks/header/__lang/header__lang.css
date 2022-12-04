@@ -2,8 +2,15 @@
     margin: 0;
     padding: 0;
     display: flex;
-    align-self: center;
+    align-self: flex-end;
     justify-content: space-between;
     list-style: none;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang{
+        margin: 0 0 6px 0;
+    }
+    
 }
