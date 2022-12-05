@@ -6,6 +6,7 @@
     justify-content: space-between;
     list-style: none;
     flex-wrap: wrap;
+    
 }
 
 @media screen and (max-width: 320px) {
