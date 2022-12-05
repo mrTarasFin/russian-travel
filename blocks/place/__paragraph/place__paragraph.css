@@ -7,10 +7,11 @@
   font-size: 18px;
   line-height: 163%;
   color: #ffffff;
+  padding-bottom: 25px;
 }
 
-.place__paragraph:last-child{
-  padding-top: 25px;
+.place__paragraph:nth-last-of-type(1){
+  padding-bottom: 0;
 }
 
 
