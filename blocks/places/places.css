@@ -4,6 +4,7 @@
     margin: 12px 148px 0 148px;
     padding: 0;
     display: grid;
+    justify-content: center;
 }
 
 @media screen and (max-width: 1024px) {
@@ -16,7 +17,13 @@
 @media screen and (max-width: 768px) {
     .places{
         margin: 12px 24px 0 24px;
-        width: 720px;
+        max-width: calc(100% - 24px);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .places{
+        width: calc(100% - 24px);
     }
 }
 
