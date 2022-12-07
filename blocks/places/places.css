@@ -27,9 +27,14 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+    .places{
+        margin: 12px auto 0 auto;
+    }
+}
+
 @media screen and (max-width: 380px) {
     .places{
-        margin: 0 0 0 8px;
         width: calc(100% - 57px);
     }
 }
@@ -42,7 +47,6 @@
 
 @media screen and (max-width: 320px) {
     .places{
-        margin: 0;
         width: 320px;
     }
 }

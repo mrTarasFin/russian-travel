@@ -1,11 +1,12 @@
 .place__text{
     margin: 0;
+    padding: 0;
     width: 100%;
 }
 
 @media screen and (max-width: 350px) {
     .place__text{
-        width: 288px;
+        width: 320px;
     }
     
 }
