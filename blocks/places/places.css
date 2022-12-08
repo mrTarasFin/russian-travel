@@ -25,18 +25,12 @@
 @media screen and (max-width: 380px) {
     .places{
         margin: 0 auto 0 auto;
-        width: calc(100% - 24px);
+        max-width: calc(100% - 24px);
     }
 }
 
 @media screen and (max-width: 350px) {
     .places{
-        width: 320px;
+        max-width: 100%;
     }
 }
-
-/* @media screen and (max-width: 320px) {
-    .places{
-        max-width: 320px;
-    }
-} */

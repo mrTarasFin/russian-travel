@@ -3,11 +3,3 @@
     padding: 0;
     width: 100%;
 }
-
-@media screen and (max-width: 350px) {
-    .place__text{
-        margin-left: 16px;
-        width: 288px;
-    }
-    
-}
