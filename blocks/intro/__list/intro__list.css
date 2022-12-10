@@ -11,12 +11,6 @@
     line-height: 18px;
 }
 
-@media screen and (max-width: 320px) {
-    .intro__list{
-    max-width: 288px;
-    }
-}
-
 @media screen and (max-width: 768px) {
     .intro__list{
     max-width: 720px;
@@ -26,6 +20,9 @@
 
 @media screen and (max-width: 320px) {
     .intro__list{
-    max-width: 320px;
+    max-width: 288px;
+    width: 288px;
+    line-height: 18px;
     }
 }
+
